@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Web Junior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span class="logo-text">Bisiaux.dev</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#competences" class="nav-link">Compétences</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Bonjour, je suis</span>
+                    <span class="name">Bisiaux Pierre</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Je suis étudiant en Pre-MSc à Epitech, à la recherche d'une alternance
+                </p>
+                <p class="hero-description">
+                    Ancien alternant développeur web chez ISIM (2025 – 2026), j'y ai créé huit applications
+                    pour des centres de formation. Je cherche une nouvelle alternance pour progresser sur des projets concrets.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <div class="profile-icon">👨‍💻</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bandeau déroulant -->
+    <details class="parcours">
+        <summary class="parcours-toggle">
+            <span>Mon parcours</span>
+            <span class="parcours-arrow">▾</span>
+        </summary>
+        <div class="container">
+            <ul class="parcours-list">
+                <li>
+                    <span class="parcours-date">2026 – aujourd'hui</span>
+                    <strong>Pre-MSc</strong>
+                    <span>Epitech</span>
+                </li>
+                <li>
+                    <span class="parcours-date">2025 – 2026</span>
+                    <strong>Développeur web en alternance</strong>
+                    <span>ISIM, groupe Plan B</span>
+                </li>
+                <li>
+                    <span class="parcours-date">2025 – 2026</span>
+                    <strong>Titre Professionnel Développeur Web et Web Mobile</strong>
+                    <span>ISIM</span>
+                </li>
+                <li>
+                    <span class="parcours-date">2024</span>
+                    <strong>Bac STI2D, spécialité SIN</strong>
+                    <span>Lycée Léonard de Vinci</span>
+                </li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- Section compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <p class="skills-legend">
+                <strong>Production</strong> : utilisé dans plusieurs applications en service
+            </p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🔷</div>
+                    <h3>TypeScript</h3>
+                    <p>Le langage par défaut de mes applications : routes, données, tests</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <span class="skill-percent">Production</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>Next.js & React</h3>
+                    <p>Applications web complètes, déployées sur Cloudflare</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <span class="skill-percent">Production</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloudflare Workers & D1</h3>
+                    <p>Hébergement serverless et base SQL des applications en service</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <span class="skill-percent">Production</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Traitement de données, extraction de PDF, rapports automatisés</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <span class="skill-percent">Production</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">✅</div>
+                    <h3>Tests automatisés</h3>
+                    <p>Vitest et Playwright, lancés avant chaque mise en production</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <span class="skill-percent">Production</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <span class="project-icon">📝</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Notion Léger</h3>
+                        <p>Un espace de travail interne, du type Notion, pour l'équipe : pages, tâches, objectifs, indicateurs et calendrier partagé.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Cloudflare D1</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://app.academya.fr" class="project-link" target="_blank" rel="noopener noreferrer">Voir le site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <span class="project-icon">🕸️</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Lore Graph</h3>
+                        <p>Un plugin Obsidian open source qui masque des dossiers dans la vue graphe. Publié sur le catalogue officiel d'Obsidian.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">API Obsidian</span>
+                            <span class="tech-tag">Vitest</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Bisiaux-dev/obsidian-lore-graph" class="project-link" target="_blank" rel="noopener noreferrer">Voir le code</a>
+                            <a href="https://community.obsidian.md/plugins/lore-graph" class="project-link" target="_blank" rel="noopener noreferrer">Catalogue Obsidian</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Envie de discuter ?</h3>
+                    <p>Je suis ouvert aux opportunités d'alternance. N'hésitez pas à me contacter.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>bisiaux.pierre@outlook.fr</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Antibes, France</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-action">
+                    <a href="mailto:bisiaux.pierre@outlook.fr" class="btn btn-primary btn-large">
+                        Envoyer un email
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/Bisiaux-dev" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/pierre-bisiaux-a01439305/" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Bisiaux Pierre. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
